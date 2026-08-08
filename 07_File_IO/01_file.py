@@ -1,4 +1,4 @@
-f = open("07_File_IO/practice/file.txt")
+f = open("07_File_IO/file.txt")
 
 # lines = f.readlines()
 # print(lines, type(lines))

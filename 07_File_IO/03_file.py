@@ -1,10 +1,10 @@
-f= open("07_File_IO/practice/file.txt")
+f= open("07_File_IO/file.txt")
 print(f.read())
 f.close()
 
 # The same can be written using with statement:
 
-with open("07_File_IO/practice/file.txt") as f:
+with open("07_File_IO/file.txt") as f:
     print(f.read())
 
 # You dont have to explicitly close the file
